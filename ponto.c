@@ -39,7 +39,7 @@ float ponto_ler_y(PPonto p){
 */
 void ponto_acessa(PPonto p, float *x, float *y){
     *x = p->x;
-    *y = p_>y;
+    *y = p->y;
 }
 /*function excreve x
 ** recebe um *ponto e um float, atribui o valor do float no x do *ponto
