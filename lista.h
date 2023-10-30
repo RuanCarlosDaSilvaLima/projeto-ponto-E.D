@@ -15,5 +15,6 @@ void print_lista(PLista lista);
 PLista busca_lista(PLista l, int aux);
 void libera_lista(PLista lista);
 PLista retira_lista(PLista lista, int info);
+void percorre_lista_loop(PLista l);
 
 #include "lista.c"

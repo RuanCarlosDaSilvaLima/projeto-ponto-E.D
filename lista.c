@@ -68,3 +68,17 @@ PLista retira_lista(PLista lista, int info){
 
     return lista;
 }
+/*function percorre loop
+** percorre printando as posições da lista 
+** printando cada vez que aperta enter 
+** e para ao apertar qualquer outra tecla
+*/
+void percorre_lista_loop(PLista l){
+    PLista aux = l;
+    while (getchar() == '\n'){
+        if (!l)
+            l = aux;
+        printf("%d\n",l->info);
+        l = l->prox;
+    }
+}
