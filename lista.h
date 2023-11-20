@@ -17,4 +17,5 @@ void libera_lista(PLista lista);
 PLista retira_lista(PLista lista, int info);
 void percorre_lista_loop(PLista l);
 
+
 #include "lista.c"
